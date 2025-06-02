@@ -2,42 +2,33 @@
 
     <html>
     <head>
-        <title>Semantic Tags</title>
+        <title>Documents</title>
     </head>
     <body>
-        <header>
-            <h1>Navigational Links</h1>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#posts">Posts</a></li>
-                    <li><a href="#contacts">Contacts</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <section>
-                <article>
-                    <p>The dog s a domesticated descendant of the gray wolf. Also called the domestic dog, it was selectively bred from an extinct population of wolves during the Late Pleistocene by hunter-gatherers.</p>
-                </article>
-            </section>
-         <figure>
-            <img scr="dog_image.jpeg">
-            <figcaption>A Cute Dog</figcaption>
-         </figure>
-
-         <audio> 
-         <source src="dog-barking-70772.mp3" type="audio/mp3">
-         </audio>
-
-         <embed src="beautiful-day-cute-dog.gif"/>
-         </main>
-
-
-         <footer>
-            <p>Contact me at 000000000000</p>
-         </footer>
-
+        <fieldset>
+        <legend>Personal details</legend>
+        <label>Name</label><br>
+        <input type="text" id="name"><br><br>
+        <lable>Email ID</lable><br>
+        <input type="text" id="Email"><br><br>
+        <label>Contact Number</label><br>
+        <input type="password" id="Contact"><br><br>
+        <label>Gender</label><br>
+        <input type="radio" id="female" name="gender" value="female">female<br>
+        <input type="radio" id="male" name="gender" value="male">male<br><br>
+        <label>Favourite CITY</label><br>
+        <input type="checkbox" id="city" value="CITY 1">CITY 1<br><br>
+        <input type="checkbox" id="city" value="CITY 2">CITY 2<br><br>
+        <input type="submit">
+        </fieldset>
+        <form>
+            <label>Choose a car:</label>
+            <select name="CARS" id="CARS">
+                <option value="Audi">Audi</option>
+                <option value="Volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="Mercedes">Mercedes</option>
+        </form>
     </body>
 
 
